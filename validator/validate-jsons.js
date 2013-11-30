@@ -4,6 +4,8 @@
 (function () {
     var fs = require('fs');
     var path = './features-json';
+    var pass = '';
+    var pattern_d = new RegExp("^");
     var sampleData;
     var statusArr = ['rec', 'pr', 'cr', 'wd', 'other', 'unoff'];
     var categoryArr = ['HTML5', 'CSS', 'CSS2', 'CSS3', 'SVG', 'PNG', 'JS API', 'Canvas', 'DOM', 'Other'];
